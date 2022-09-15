@@ -62,25 +62,25 @@
  .sec1 {
      display: none;
      transform: translateY(0) scale(1);
-     background-color: rgb(161, 228, 38, 0.849);
+    //  background-color: rgba(161, 228, 38, 0.849);
  }
 
  .sec2 {
      display: none;
      transform: translateY(0) scale(1);
-     background-color: slateblue;
+    //  background-color: slateblue;
  }
 
  .sec3 {
      display: none;
      transform: translateY(0) scale(1);
-     background-color: rgb(146, 205, 90);
+    //  background-color: rgb(146, 205, 90);
  }
 
  .sec4 {
      display: none;
      transform: translateY(0) scale(1);
-     background-color: rgb(194, 205, 90);
+    //  background-color: rgb(194, 205, 90);
  }
 
  .sec5 {
@@ -91,6 +91,15 @@
 
  .active{
     display: block;
+    animation: scaleAnim 1s ease-in-out;
+    @keyframes  scaleAnim{
+        0%{
+            transform: translateY(-100%) scaleY(0);
+        }
+        100%{
+            transform: translateY(0) scaleY(1);
+        }
+    }
  }
    
  .controlls {
