@@ -281,9 +281,11 @@
          span {
              color: var(--color-secondary)
          }
-
+         
          .bg-text {
-             position: absolute;
+            // display: flex;
+            //  position: relative;
+            position: absolute;
              top: 50%;
              left: 50%;
              color: var(--color-grey-5);
