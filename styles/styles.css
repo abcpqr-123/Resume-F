@@ -300,6 +300,24 @@ section {
   transition: all 0.4s ease-in-out;
   width: 60%;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress .html {
+  width: 90%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .css {
+  width: 95%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .javascript {
+  width: 75%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .java {
+  width: 60%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .go {
+  width: 85%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .python {
+  width: 70%;
+}
 
 .btn-con {
   display: flex;
