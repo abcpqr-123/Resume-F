@@ -326,6 +326,15 @@ section {
   padding: 3.5rem 0;
   position: relative;
 }
+.stat-title::before {
+  content: "";
+  left: 50%;
+  top: 0;
+  width: 40%;
+  height: 1px;
+  background-color: var(--color-grey-5);
+  transform: translateX(-50%);
+}
 
 .btn-con {
   display: flex;
