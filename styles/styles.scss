@@ -548,7 +548,7 @@
              img {
                  filter: grayscale(0);
                  transform: scale(1.1);
-                 box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.8);
+                 box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.8);
              }
          }
          img{
@@ -559,6 +559,12 @@
             border-top-right-radius: 5px;
             filter: grayscale(100%);
             transition: all .4s ease-in-out;
+         }
+         .blog-text{
+            margin-top: -7px;
+            padding: 1.1rem;
+            border-top: 8px solid var(--color-secondary);
+            
          }
      }
  }
