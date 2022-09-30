@@ -327,6 +327,7 @@ section {
   position: relative;
 }
 .stat-title::before {
+  position: absolute;
   content: "";
   left: 50%;
   top: 0;
