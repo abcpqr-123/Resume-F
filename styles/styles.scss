@@ -564,7 +564,15 @@
             margin-top: -7px;
             padding: 1.1rem;
             border-top: 8px solid var(--color-secondary);
-            
+            h4{
+                font-size: 1.5rem;
+                margin-bottom: .7rem;
+                transition: all .4s ease-in-out;
+                cursor: pointer;
+                &:hover{
+                    color: var(--color-secondary);
+                }
+            }
          }
      }
  }
