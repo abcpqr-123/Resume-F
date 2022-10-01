@@ -582,9 +582,14 @@
      }
  }
 
-
-
- 
+ // Contact Section
+.contact-content-con{
+    display: flex;
+    padding-top: 3.5rem;
+    .left-contact{
+        flex: 2;
+    }
+}
 
 
  // independened components

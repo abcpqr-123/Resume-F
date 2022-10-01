@@ -511,6 +511,19 @@ section {
 .blogs .blog .blog-text h4:hover {
   color: var(--color-secondary);
 }
+.blogs .blog .blog-text P {
+  color: var(--color-grey-2);
+  line-height: 2rem;
+  padding-bottom: 1rem;
+}
+
+.contact-content-con {
+  display: flex;
+  padding-top: 3.5rem;
+}
+.contact-content-con .left-contact {
+  flex: 2;
+}
 
 .btn-con {
   display: flex;
