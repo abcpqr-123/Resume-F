@@ -47,16 +47,18 @@
  }
 
  a {
-     display: inline-block;
+    //  display: inline-block;
      text-decoration: none;
-     color: inherit;
-     font-family: inherit;
+    //  color: inherit;
+    //  font-family: inherit
+    display: inline-block;
  }
 
  header {
      min-height: 100vh;
+     font-family: 'Poppins', sans-serif;
      color: var(--color-white);
-     //     overflow: hidden;
+     overflow: hidden;
  }
 
  section {
