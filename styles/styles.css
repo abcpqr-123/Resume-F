@@ -181,7 +181,7 @@ section {
 .header-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  height: 100%;
+  min-height: 100%;
 }
 .header-content .left-header {
   display: flex;
@@ -794,6 +794,15 @@ section {
   }
   .section {
     padding: 2rem 2.5rem;
+  }
+  .main-title h2 {
+    font-size: 2rem;
+  }
+  .main-title h2 span {
+    font-size: 2.5rem;
+  }
+  .main-title h2 .bg-text {
+    font-size: 3rem;
   }
   .controlls {
     top: auto;
